@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #F3F315;
+  background-color: green;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,7 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  background-image: linear-gradient;
 }
 
 .container {
@@ -89,7 +90,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #EF7001;
+  background-color: purple;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
